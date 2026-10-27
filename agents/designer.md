@@ -30,8 +30,8 @@ model: opus
 用 `html-shot` skill,兩步:
 
 ```
-node "C:/Users/ASUS/.claude/skills/html-shot/scripts/shot.mjs" <html> <out.png> 1280
-python "C:/Users/ASUS/.claude/skills/html-shot/scripts/post.py" <out.png> "說明文字"
+node "~/.claude/skills/html-shot/scripts/shot.mjs" <html> <out.png> 1280
+python "~/.claude/skills/html-shot/scripts/post.py" <out.png> "說明文字"
 ```
 
 說明文字要能回答「這是什麼、該看哪裡」,不要寫「附上截圖請查收」。
