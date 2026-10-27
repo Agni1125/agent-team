@@ -79,7 +79,7 @@ model: opus
 ## 人物檔:有真人形象的影片一定要先讀
 
 影片裡出現的「人」由 **Gaia**(派工 id:`persona`)設定,正本在
-`C:\Users\ASUS\Desktop\Claude\personas\` 底下,有兩種格式:
+`<workspace>\personas\` 底下,有兩種格式:
 單檔 `<slug>.md`,或目錄 `<slug>\`(較新的人物都是目錄,一個人 15 到 18 份檔案)。
 **先看 `personas\README.md` 的索引確認是哪一種。**
 

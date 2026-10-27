@@ -78,7 +78,7 @@ model: opus
 
 Owner 對「AI 味」極度敏感,明確列為不接受的文字之一 —— 模板化、空泛、故作專業、對仗工整、面面俱到,都會被退。這不是可選的潤飾步驟,是交付條件。
 
-寫作時參考 `C:\Users\ASUS\Desktop\Claude\refs\agni-profile-20260827.md` 的「十、溝通與文字偏好」,尤其這幾條:
+寫作時參考 `<workspace>\refs\agni-profile-20260827.md` 的「十、溝通與文字偏好」,尤其這幾條:
 
 - 先直接說判斷或問題核心,再解釋如何對應當下情境
 - 給**可直接貼上使用**的版本,不要只講原則
@@ -115,7 +115,7 @@ python "~/.claude/skills/html-shot/scripts/post.py" <out.png> "說明文字"
 
 若 Amazon 素材上要出現特定人物(情境圖裡的使用者、代言形象),
 那個人由 **Gaia**(派工 id:`persona`)設定,正本在
-`C:\Users\ASUS\Desktop\Claude\personas\<slug>.md`,讀第 9、10、12 段。
+`<workspace>\personas\<slug>.md`,讀第 9、10、12 段。
 第 12 段寫了揭露規範 —— 虛擬人物上商業素材有法遵風險,不要略過。
 
 一般模特、沒有指定人物的情境圖不受此限。
@@ -158,6 +158,6 @@ python "~/.claude/skills/html-shot/scripts/post.py" <out.png> "說明文字"
 
 ## 寫部落格 / 長文前必讀(2026-10-16 加)
 
-1. `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261016\copy-learning\owner_feedback_lessons.md` —— Owner 在 Codex 與 Claude 兩邊對 Entry 05 的全部退稿意見,17 條。**大標是問題、每個小標都要回答它;第一人稱 I;多來源數據;不自打嘴巴;產品要出場;看完要有然後。**
-2. `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261016\copy-learning\techteller_study_guide.md` —— 科技說(techteller.com)409 篇文章的寫法拆解。全文在同目錄 `techteller\`,只能當內部學習素材,不得轉載或引用原文上線。
-3. **研究型長文(2026-10-20 加,優先於上面兩份):** `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261020\blog-gap-analysis\02_研究型長文寫作規範_v2.md`,範本是同目錄 `範本_主管版_北美車用香氛市場調查.txt`。**最優先(10-20 主管第二次反饋):題目問「為什麼」,第一句就要講出原因,每一節證明一個原因,不證明原因的背景資料刪掉;核心原因查不到就停下補研究,不准用「查不到」當答案(第 9.5 節)。** 其他重點:研究整個品類而不只是我們的品類;主幹用一、二級來源;數據衝突要算清楚,不要用免責聲明帶過;第一節就給答案;研究發現要轉成設計規則;我們卡片的天數一律不寫。
+1. `<workspace>\tcc-agent\outbox\20261016\copy-learning\owner_feedback_lessons.md` —— Owner 在 Codex 與 Claude 兩邊對 Entry 05 的全部退稿意見,17 條。**大標是問題、每個小標都要回答它;第一人稱 I;多來源數據;不自打嘴巴;產品要出場;看完要有然後。**
+2. `<workspace>\tcc-agent\outbox\20261016\copy-learning\techteller_study_guide.md` —— 科技說(techteller.com)409 篇文章的寫法拆解。全文在同目錄 `techteller\`,只能當內部學習素材,不得轉載或引用原文上線。
+3. **研究型長文(2026-10-20 加,優先於上面兩份):** `<workspace>\tcc-agent\outbox\20261020\blog-gap-analysis\02_研究型長文寫作規範_v2.md`,範本是同目錄 `範本_主管版_北美車用香氛市場調查.txt`。**最優先(10-20 主管第二次反饋):題目問「為什麼」,第一句就要講出原因,每一節證明一個原因,不證明原因的背景資料刪掉;核心原因查不到就停下補研究,不准用「查不到」當答案(第 9.5 節)。** 其他重點:研究整個品類而不只是我們的品類;主幹用一、二級來源;數據衝突要算清楚,不要用免責聲明帶過;第一節就給答案;研究發現要轉成設計規則;我們卡片的天數一律不寫。

@@ -27,7 +27,7 @@ Ivy 負責的是**商品頁面上的圖與字** —— 買家已經進到 listin
 
 ## 資料在哪裡
 
-專案在 `C:\Users\ASUS\Desktop\Claude\supabase-pipeline\`,資料在 Supabase。
+專案在 `<workspace>\supabase-pipeline\`,資料在 Supabase。
 
 ### 社群語料(研究素材,所有人共用)
 
@@ -105,8 +105,8 @@ h["Content-Profile"] = "nate_sobczak"     # 寫
 社群帳號背後的「人」由 **Gaia**(派工 id:`persona`)建立,正本在:
 
 ```
-C:\Users\ASUS\Desktop\Claude\personas\<slug>.md        單檔格式
-C:\Users\ASUS\Desktop\Claude\personas\<slug>\          目錄格式(較新的人物都是這種)
+<workspace>\personas\<slug>.md        單檔格式
+<workspace>\personas\<slug>\          目錄格式(較新的人物都是這種)
 ```
 
 **兩種格式都存在,先看 `personas\README.md` 的索引確認是哪一種。**
@@ -158,7 +158,7 @@ C:\Users\ASUS\Desktop\Claude\personas\<slug>\          目錄格式(較新的人
 ## SPACION 品牌語氣:Our Story 部落格
 
 **寫 SPACION 品牌官方帳號的貼文前,先讀:**
-`C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261015\spacion-our-story-study\LENA-講義.md`
+`<workspace>\tcc-agent\outbox\20261015\spacion-our-story-study\LENA-講義.md`
 (全文在同目錄 `articles/`,2026-10-15 抓取,共 4 篇)
 
 - 那是**品牌本人**的聲音。寫**人物帳號**時語氣照人物檔,不要套;部落格內容要在該人物的 `seen` 裡才能引用。
@@ -249,14 +249,14 @@ C:\Users\ASUS\Desktop\Claude\personas\<slug>\          目錄格式(較新的人
 
 ## 寫部落格 / 長文前必讀(2026-10-16 加)
 
-1. `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261016\copy-learning\owner_feedback_lessons.md` —— Owner 在 Codex 與 Claude 兩邊對 Entry 05 的全部退稿意見,17 條。**大標是問題、每個小標都要回答它;第一人稱 I;多來源數據;不自打嘴巴;產品要出場;看完要有然後。**
-2. `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261016\copy-learning\techteller_study_guide.md` —— 科技說(techteller.com)409 篇文章的寫法拆解。全文在同目錄 `techteller\`,只能當內部學習素材,不得轉載或引用原文上線。
+1. `<workspace>\tcc-agent\outbox\20261016\copy-learning\owner_feedback_lessons.md` —— Owner 在 Codex 與 Claude 兩邊對 Entry 05 的全部退稿意見,17 條。**大標是問題、每個小標都要回答它;第一人稱 I;多來源數據;不自打嘴巴;產品要出場;看完要有然後。**
+2. `<workspace>\tcc-agent\outbox\20261016\copy-learning\techteller_study_guide.md` —— 科技說(techteller.com)409 篇文章的寫法拆解。全文在同目錄 `techteller\`,只能當內部學習素材,不得轉載或引用原文上線。
 
 ### 研究型長文(市場調查、「為什麼 X」)—— 2026-10-20 加,優先於上面兩份
 
 10-15 交的 Entry 05 四版,TA 都不會想看;主管 10-16 重寫的版本是標準。動筆前讀:
 
-- `C:\Users\ASUS\Desktop\Claude\tcc-agent\outbox\20261020\blog-gap-analysis\02_研究型長文寫作規範_v2.md` —— 規範與交稿自檢 11 題
+- `<workspace>\tcc-agent\outbox\20261020\blog-gap-analysis\02_研究型長文寫作規範_v2.md` —— 規範與交稿自檢 11 題
 - 同目錄 `範本_主管版_北美車用香氛市場調查.txt` —— 範本全文,動筆前通讀、交稿前並排對照
 - 同目錄 `01_差異拆解.md` —— 舊版錯在哪
 

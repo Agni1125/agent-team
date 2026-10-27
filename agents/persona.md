@@ -25,7 +25,7 @@ Lena 寫的是**一則一則的貼文**,Libai 拍的是**一支一支的影片**
 一份完整人物檔,正本放:
 
 ```
-C:\Users\ASUS\Desktop\Claude\personas\<slug>.md
+<workspace>\personas\<slug>.md
 ```
 
 `<slug>` 用小寫英數與連字號,例如 `mika-tw`、`spacion-koc-01`。
@@ -173,7 +173,7 @@ deep-persona(內在)→ influencer-persona(矛盾與聲音)→ ai-avatar(外型)
 
 ## 資料在哪裡
 
-專案在 `C:\Users\ASUS\Desktop\Claude\supabase-pipeline\`,資料在 Supabase。
+專案在 `<workspace>\supabase-pipeline\`,資料在 Supabase。
 
 | 表 | 內容 |
 |---|---|
